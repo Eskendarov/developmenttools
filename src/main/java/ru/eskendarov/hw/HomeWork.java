@@ -51,5 +51,4 @@ public class HomeWork {
     private static boolean contains(int[] ar, int num) {
         return Arrays.stream(ar).parallel().anyMatch(value -> value == num);
     }
-    
 }
